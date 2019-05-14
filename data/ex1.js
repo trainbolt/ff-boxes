@@ -1,25 +1,28 @@
 module.exports = {
-  stack: "h",
+  orientation: "h",
   boxes: [
     {
-      stack: "v",
+      orientation: "v",
       boxes: [
         {
-          stack: "v",
+          orientation: "v",
           boxes: [
             {
-              stack: "v",
+              orientation: "v",
               boxes: [
                 {
-                  stack: "h",
+                  orientation: "h",
                   boxes: [
                     {
-                      stack: "h",
+                      orientation: "h",
                       boxes: [
                         {
-                          stack: "v",
+                          orientation: "v",
                           boxes: [
-                            { stack: "v", boxes: [{ stack: "v", boxes: [] }] }
+                            {
+                              orientation: "v",
+                              boxes: [{ orientation: "v", boxes: [] }]
+                            }
                           ]
                         }
                       ]

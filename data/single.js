@@ -1,4 +1,4 @@
 module.exports = {
-  stack: "h",
-  boxes: [ ]
+  orientation: "h",
+  boxes: []
 };

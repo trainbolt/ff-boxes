@@ -1,8 +1,8 @@
 module.exports = {
-  stack: 'h',
+  orientation: "h",
   boxes: [
     {
-      stack: 'h',
+      orientation: "h",
       boxes: []
     }
   ]
